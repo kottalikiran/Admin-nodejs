@@ -1,0 +1,82 @@
+# Project Title:MyAccountHub : Admin Portal
+
+The admin portal is a web application that allows customers of the "MyAccountHub" organization to manage their user data. Customers can register for an account using the portal and then log in to perform various operations on their user data.
+
+To ensure that the API endpoints work correctly, you can use Postman to test the various operations, such as adding a new user, editing an existing user, and deleting a user. You can also test error scenarios, such as providing invalid input parameters or incorrect authentication credentials, to ensure that the API handles them correctly.
+
+---
+## Requirements
+
+For development, you will only need Node.js and a node global package, npm, installed in your environement.
+
+### Node
+- #### Node installation on Windows
+
+  Just go on [official Node.js website](https://nodejs.org/) and download the installer.
+Also, be sure to have `git` available in your PATH, `npm` might need it (You can find git [here](https://git-scm.com/)).
+
+- #### Node installation on Ubuntu
+
+  You can install nodejs and npm easily with apt install, just run the following commands.
+
+      $ sudo apt install nodejs
+      $ sudo apt install npm
+
+- #### Other Operating Systems
+  You can find more information about the installation on the [official Node.js website](https://nodejs.org/) and the [official NPM website](https://npmjs.org/).
+
+If the installation was successful, you should be able to run the following command.
+
+    $ node --version
+
+    $ npm --version
+ 
+
+If you need to update `npm`, you can make it using `npm`! Cool right? After running the following command, just open again the command line and be happy.
+
+    $ npm install npm -g
+    $ npm install npm -g
+
+
+
+## Install
+You need to at the root level and then type command:
+    $ npm  install
+
+
+## Running the project
+
+    $ node index.js
+
+
+
+## Steps to start the application
+
+1 . Install Node.js version 16.17.0 -> https://nodejs.org/dist/v16.17.0/node-v16.17.0-x64.msi
+
+2. Install Mongodb  -> https://fastdl.mongodb.org/windows/mongodb-windows-x86_64-6.0.5-signed.msi
+
+3. Install compass (if not included with mongodb) ->https://downloads.mongodb.com/compass/mongodb-compass-1.36.1-win32-x64.exe
+
+4.go to your installed location of mongodb (typically ->C:\Program Files\MongoDB\Server\6.0\bin)
+
+5.open cmd on this location and run the database by typing -> mongod
+
+6.if any issue while starting the db then make a folder name data on your windows drive (typically its C:\  )
+
+7.start mongodb compass ui and connect to db by following simple screen instructions,
+by default the URI is mongodb://localhost:27017  , then press button-> save and connect.
+
+8.now come to your root folder of the project and open terminal there and type -> npm install
+
+9.after installing all the required packages , we need to start the nodejs server by typing -> node index.js
+
+10. Server started!
+
+
+ Default Credential for admin login ->
+ email -> admin@gmail.com
+ password -> admin@123
+
+
+
